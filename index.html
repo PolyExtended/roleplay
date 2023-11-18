@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch Featured List</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="https://polyextended.github.io/nav.css">
+    <style>
+        .col.s12.m6 {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 10px;
+            max-width: calc(33.33% - 20px);
+        }
+
+        .badge-live {
+            background-color: #28a745;
+        }
+
+        .badge-offline {
+            background-color: #6c757d;
+            border-radius: 15px;
+        }
+
+        #featuredListContainer {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header class="z-depth-1">
+        <nav class="z-depth-0 backer-dark">
+            <div class="nav-wrapper container">
+                <ul class="left">
+                    <li><a href="https://polyextended.github.io/">Home</a></li>
+                    <li><a href="https://polyextended.github.io/live/">PolyLive</a></li>
+                    <li><a href="https://polyextended.github.io/streamlookup/">PolyLookup</a></li>
+                  <li><a href="https://polyextended.github.io/roleplay/">PolyRolePlay</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" id="featuredListContainer">
+        <h4>Nopixel</h4>
+  <img alt="Twitch Status" src="https://img.shields.io/twitch/status/Whippy?style=for-the-badge&label=Whippy&color=Green&link=twitch.tv%2Fwhippy">
+<img alt="Twitch Status" src="https://img.shields.io/twitch/status/AbdulHD?style=for-the-badge&label=AbdulHD&color=Green&link=twitch.tv%2Fabdulhd">
+      <img alt="Twitch Status" src="https://img.shields.io/twitch/status/UhSnow?style=for-the-badge&label=UhSnow&color=Green&link=twitch.tv%2Fuhsnow">
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
